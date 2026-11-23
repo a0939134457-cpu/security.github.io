@@ -40,3 +40,4 @@ curl --cacert rootCA.pem -I https://192.168.56.101:8443/
 本次實驗確認瀏覽器能透過 HTTPS 開啟 Tomcat，且客戶端能使用新 Root CA 驗證憑證。連線使用 IP 位址時，伺服器憑證的 SAN 必須包含該 IP。
 
 [實驗講義](https://hackmd.io/V7VikaDmT928w_vMxDHaWQ)
+<img width="1093" height="953" alt="image" src="https://github.com/user-attachments/assets/a9b5aa2a-a087-4ce1-b375-c2a32772c672" />
