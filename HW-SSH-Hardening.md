@@ -27,3 +27,22 @@
 此實驗已確認 SSH 握手提供的舊演算法減少，且強化後仍能建立新連線。這次驗證範圍為金鑰交換、加密及 MAC 的設定。
 
 [實驗講義](https://hackmd.io/unmKSqywRNCtXVS2L8nN0A?view)
+
+
+## 實驗截圖
+
+### 改善前的 Nmap 掃描
+
+![改善前的金鑰交換與加密清單](./ssh-before-1.png)
+
+![改善前的 MAC 清單](./ssh-before-2.png)
+
+### 改善後的 Nmap 複掃
+
+![改善後的金鑰交換、加密與 MAC 清單](./ssh-after-1.png)
+
+![改善後的掃描結束畫面](./ssh-after-2.png)
+
+### Windows 重新登入驗收
+
+![新開 PowerShell 分頁成功登入 RH70-LVM](./ssh-login.png)
